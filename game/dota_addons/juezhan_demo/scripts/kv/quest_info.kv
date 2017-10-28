@@ -1,0 +1,225 @@
+"Quests"
+{
+    "KillWolves" //杀狼
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_xiaoer"
+        "frontRequireType"  ""
+        "frontRequire"      ""
+        "questType"         "kill"
+        "targetName"        "npc_creep_sep_wolf"
+        "demandCount"       "6"
+        "rewardType"        "item"
+        "rewardContent"     "item_zhanqi"
+        "repeatable"        "false"
+    }
+    "KillPigKing"  //杀猪王
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_xiaoer"
+        "frontRequireType"  "quest"
+        "frontRequire"      "KillWolves"
+        "questType"         "kill"
+        "targetName"        "npc_creep_sep_pigking"
+        "demandCount"       "1"
+        "rewardType"        "item"
+        "rewardContent"     "item_xiongpi"
+        "repeatable"        "false"
+    }
+    "KillScorpions"  //杀蝎子
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_xiaoer"
+        "frontRequireType"  "quest"
+        "frontRequire"      "KillPigKing"
+        "questType"         "kill"
+        "targetName"        "npc_creep_sep_scorpion"
+        "demandCount"       "3"
+        "rewardType"        "item"
+        "rewardContent"     "item_hexin"
+        "repeatable"        "false"
+    }
+    "KillPioneer" //杀辽国第一先锋
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_qiaofeng"
+        "frontRequireType"  ""
+        "frontRequire"      ""
+        "questType"         "kill"
+        "targetName"        "npc_creep_sep_pioneer"
+        "demandCount"       "1"
+        "rewardType"        "item"
+        "rewardContent"     "item_forget_stone"
+        "repeatable"        "true"
+    }
+
+    "ExploreGaoChangMaze" //探索高昌迷宫
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_liwenxiu"
+        "frontRequireType"  ""
+        "frontRequire"      ""
+        "questType"         "kill"
+        "targetName"
+        {
+            "01"            "npc_creep_sep_menpaipantu"
+            "02"            "npc_creep_sep_wulinetu"
+        }
+        "demandCount"       "10"
+        "rewardType"        "item"
+        "rewardContent"     "item_forget_stone"
+        "repeatable"        "true"
+    }
+
+    "KillSevenStranges" //杀江南七怪
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_baixiaosheng"
+        "frontRequireType"  ""
+        "frontRequire"      ""
+        "questType"         "kill"
+        "targetName"
+        {
+            "01"             "npc_creep_sep_kezhene"
+            "02"             "npc_creep_sep_zhucong"
+            "03"             "npc_creep_sep_hanbaoju"
+            "04"             "npc_creep_sep_nanxiren"
+            "05"             "npc_creep_sep_zhangasheng"
+            "06"             "npc_creep_sep_quanjinfa"
+            "07"             "npc_creep_sep_hanxiaoying"
+
+        }
+        "demandCount"       "1"
+        "rewardType"        "item"
+        "rewardContent"     "item_none"
+        "repeatable"        "false"
+    }
+
+    "KillEighteenLuoHan" //杀十八罗汉
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_baixiaosheng"
+        "frontRequireType"  "quest"
+        "frontRequire"      "KillSevenStranges"
+        "questType"         "kill"
+        "targetName"        "npc_creep_sep_shibaluohan"
+        "demandCount"       "18"
+        "rewardType"        "item"
+        "rewardContent"     "item_none"
+        "repeatable"        "false"
+    }
+
+    "KillShiEBuShe" //杀十恶不赦
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_baixiaosheng"
+        "frontRequireType"  "quest"
+        "frontRequire"      "KillEighteenLuoHan"
+        "questType"         "kill"
+        "targetName"        "npc_creep_sep_shiebushe"
+        "demandCount"       "100"
+        "rewardType"        "item"
+        "rewardContent"     "item_none"
+        "repeatable"        "false"
+    }
+
+
+    "ChallengeGuangMingDing" //挑战光明顶
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_baixiaosheng"
+        "frontRequireType"  "quest"
+        "frontRequire"      "KillShiEBuShe"
+        "questType"         "kill"
+        "targetName"
+        {
+            "01"             "npc_creep_sep_zishanlongwang"
+            "02"             "npc_creep_sep_qiyifuwang"
+            "03"             "npc_creep_sep_jinmaoshiwang"
+            "04"             "npc_creep_sep_baimeiyingwang"
+            "05"             "npc_creep_sep_guangmingzuoshi"
+            "06"             "npc_creep_sep_guangmingyoushi"
+            "07"             "npc_creep_sep_yangdingting"
+
+        }
+        "demandCount"       "1"
+        "rewardType"        "item"
+        "rewardContent"     "item_none"
+        "repeatable"        "false"
+    }
+
+    "HuaShanLunJian" //华山论剑
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_baixiaosheng"
+        "frontRequireType"  "quest"
+        "frontRequire"      "ChallengeGuangMingDing"
+        "questType"         "kill"
+        "targetName"
+        {
+            "01"             "npc_creep_sep_huangyaoshi"
+            "02"             "npc_creep_sep_ouyangfeng"
+            "03"             "npc_creep_sep_yidingdashi"
+            "04"             "npc_creep_sep_hongqigong"
+        }
+        "demandCount"       "1"
+        "rewardType"        "item"
+        "rewardContent"     "item_none"
+        "repeatable"        "false"
+    }
+    "VisitHuangXiaoRong" //拜访黄小蓉
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_linyuantu"
+        "frontRequireType"  ""
+        "frontRequire"      ""
+        "questType"         "visit"
+        "targetName"        "npc_creep_quest_huangxiaorong"
+        "demandCount"       "1"
+        "rewardType"        "item"
+        "rewardContent"     "item_hexin"
+        "repeatable"        "false"
+    }
+
+    "VisitQiaoFeng" //拜访乔峰
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_linyuantu"
+        "frontRequireType"  "quest"
+        "frontRequire"      "VisitHuangXiaoRong"
+        "questType"         "visit"
+        "targetName"        "npc_creep_quest_qiaofeng"
+        "demandCount"       "1"
+        "rewardType"        "item"
+        "rewardContent"     "item_hexin"
+        "repeatable"        "false"
+    }
+
+    "VisitDaMo"  //拜访达摩祖师
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_linyuantu"
+        "frontRequireType"  "quest"
+        "frontRequire"      "VisitDaMo"
+        "questType"         "visit"
+        "targetName"        "npc_creep_quest_damo"
+        "demandCount"       "1"
+        "rewardType"        "item"
+        "rewardContent"     "item_hexin"
+        "repeatable"        "false"
+    }
+
+    "KillingTask" //阳寿已尽任务
+    {
+        "triggerType"       "npc"
+        "triggerName"       "npc_creep_quest_pingyizhi"
+        "frontRequireType"  "quest"
+        "frontRequire"      ""
+        "questType"         "kill"
+        "targetName"        "random"
+        "demandCount"       "1"
+        "rewardType"        "item"
+        "rewardContent"     "item_none"
+        "repeatable"        "true"
+    }
+}

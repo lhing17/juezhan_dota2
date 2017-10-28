@@ -1,0 +1,31 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c"/>
+		<include src="file://{resources}/styles/custom_game/game_info.css" />
+	</styles>
+	<script>
+		function OnBtnClick(){
+			$("#btn").SetHasClass("btnClick", false);
+			$("#btn").SetHasClass("btnClick", true);
+			$.Msg("my button");
+		}
+	</script>
+	<Panel>
+		<Panel id="mainWin">
+			<Panel id="content">
+				<Button id="btn"><Label text="我是一个按钮"/></Button>
+				<Label id="label" text="我是一个标签"/>
+				<Image id="image" src="file://{images}/custom_game/jugg.png"/>
+				<TextEntry id="entry" maxchars="100" placeholder="输入内容" />
+				<DropDown id="drop">
+					<Label text="下拉列表项1" id="entry1"/>
+					<Label text="下拉列表项2" id="entry2"/>
+					<Label text="下拉列表项3" id="entry3"/>
+					<Label text="下拉列表项4" id="entry4"/>
+				</DropDown>
+				<ToggleButton id="toggleBtn_1" checked="true" text="Checkbox 1"/>
+				<ToggleButton id="toggleBtn_2" checked="true" text="Checkbox 2"/>
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

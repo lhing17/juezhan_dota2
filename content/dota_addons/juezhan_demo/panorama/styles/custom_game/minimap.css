@@ -1,0 +1,20 @@
+#minimap_container {
+    align: left bottom;
+}
+
+#minimap_block {
+    width: 244px;
+    height: 244px;
+    background-image: url("s2r://panorama/images/hud/reborn/bg_minimap_psd.vtex");
+    background-size: contain;
+    z-index: -1;
+    vertical-align: bottom;
+    overflow: clip;
+}
+
+#minimap {
+    width: 260px;
+    height: 260px;
+    vertical-align: middle;
+    horizontal-align: center;
+}

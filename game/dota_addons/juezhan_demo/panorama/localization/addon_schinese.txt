@@ -1,0 +1,146 @@
+﻿"addon"
+{
+
+    "npc_dota_hero_juggernaut"          "魔君"     //
+    "npc_dota_hero_sven"                "浪云"     //
+    "npc_dota_hero_crystal_maiden" 	    "兰馨"     //
+    "npc_dota_hero_lina" 			    "若蝶"     //
+    "npc_dota_hero_kunkka" 			    "潇侠"     //
+    "npc_dota_hero_windrunner" 		    "莫言"     //
+    "npc_dota_hero_ancient_apparition"  "瑾轩"     //
+
+
+
+
+	"MyUIButton"		"一个按钮"
+	"MyUIMain_title"	"显示出来了"
+	"MyTasks"			"我的任务"
+	"desc"				"随机任务：杀掉6只野狼\n任务奖励：杀猪刀"
+	"ready"				"待完成"
+
+	"DOTA_GoodGuys"   	"正派武林"
+    "DOTA_BadGuys"    	"魔教"
+    "DOTA_Custom1"    	"中立怪"
+    "DOTA_Custom2"    	"Orange Dog"
+    "DOTA_Custom3"    	"Blue Rooster"
+    "DOTA_Custom4"    	"Green Ram"
+    "DOTA_Custom5"    	"Brown Rat"
+    "DOTA_Custom6"    	"Cyan Boar"
+    "DOTA_Custom7"    	"Olive Snake"
+    "DOTA_Custom8"    	"Purple Horse"
+
+    "addonname"			"决战江湖"
+
+    "PlayerHeader"      "玩家列表"
+    "HardSelect"        "选择难度"
+    "HeroSelect"        "选择完毕"
+    "SelectOver"        "等待进入游戏"
+    "EasyButton"        "初\n入\n江\n湖"
+    "NormalButton"      "牛\n刀\n小\n试"
+    "HardButton"        "登\n堂\n入\n室"
+    "DemonButton"       "炉\n火\n纯\n青"
+    "TeamButton"        "华\n山\n论\n剑"
+    "NightmareButton"   "决\n战\n江\n湖"
+    "HeroListHeader"    "请选择英雄"
+    "DenominationSelect" "请选择门派"
+
+    "HeroAttribute"     "人物属性"
+    "denomination"      "门派"
+    "noDenomination"    "未选择"
+    "criticalRate"      "暴击率"
+    "criticalDamage"    "暴击伤害"
+    "damageAddition"    "伤害加成"
+    "damageAbsorb"      "伤害吸收"
+    "uniqueSkillPerception" "绝学领悟力"
+    "practice"          "历练"
+    "skillCultivation"  "武功修为"
+    "reputation"        "声望"
+    "point"             "守家积分"
+
+    "ShaoLin"           "少林"
+    "WuDang"            "武当"
+    "HuaShan"           "华山"
+    "GuMu"              "古墓"
+    "XingXiu"           "星宿"
+    "QuanZhen"          "全真"
+
+    "wuxing"            "悟性:"
+    "gengu"             "根骨:"
+    "danpo"             "胆魄:"
+    "jingmai"           "经脉:"
+    "yishu"             "医术:"
+    "fuyuan"            "福缘:"
+
+    "KillWolves"						    "杀野狼："
+    "KillWolvesAccept"					    "有客人想吃狼肉，帮我杀死6只【野狼】，我会给你一些出门装。"
+    "KillWolvesInprogress"				    "杀6只小【野狼】有这么困难吗?"
+    "KillWolvesFinish"					    "这是给你的奖励。"
+
+	"KillPigKing"							"杀野猪首领："
+	"KillPigKingAccept"					    "有客人想吃野猪肉，帮我到西坡杀死【野猪首领】，我会给你一点好玩意。"
+	"KillPigKingInprogress"				    "还没有杀掉【野猪首领】吗?"
+	"KillPigKingFinish"                     "这是给你的奖励。"
+
+	"KillScorpions"						    "杀蝎子："
+    "KillScorpionsAccept"					"有客人想吃照蝎子，帮我到小河塘杀死3只【蝎子】，报酬会让你满意的。"
+	"KillScorpionsInprogress"				"我要3只【蝎子】，你当我不识数吗?"
+	"KillScorpionsFinish"                   "这是给你的奖励。"
+
+    "KillPioneer"                           "辽国军心"
+    "KillPioneerAccept"                     "辽国养兵蓄锐，似乎对大宋有所企图，若能击败【辽国第一先锋】，延缓战事，则百姓才可过上太平日子。"
+    "KillPioneerInProgress"                 "还没有击败【辽国第一先锋】吗？"
+    "KillPioneerFinish"                     "这是给你的奖励。"
+
+    "ExploreGaoChangMaze"                   "探索高昌迷宫"
+    "ExploreGaoChangMazeAccept"             "前往高昌迷宫击杀10只【门派叛徒】和10只【武林恶徒】。"
+    "ExploreGaoChangMazeInProgress"         "还没有击杀10只【门派叛徒】和10只【武林恶徒】吗？"
+    "ExploreGaoChangMazeFinish"             "这是给你的奖励。"
+
+    "KillSevenStranges"                     "历练1：大战江南七怪"
+    "KillSevenStrangesAccept"               "接到任务后挑战【江南七怪】，你必须前往任务指定的地点完成任务。"
+    "KillSevenStrangesInProgress"           "还没有打败【江南七怪】吗？"
+    "KillSevenStrangesFinish"               "这是给你的奖励。"
+
+    "KillEighteenLuoHan"                    "历练2：十八罗汉阵"
+    "KillEighteenLuoHanAccept"              "接到任务后打败少林【十八罗汉】，你必须前往任务指定的地点完成任务。"
+    "KillEighteenLuoHanInProgress"          "还没有打败少林【十八罗汉】吗？"
+    "KillEighteenLuoHanFinish"              "这是给你的奖励。"
+
+    "KillShiEBuShe"                         "历练3：十恶不赦岛"
+    "KillShiEBuSheAccept"                   "击杀至少100个【十恶不赦】完成任务。"
+    "KillShiEBuSheInProgress"               "还没有击杀100个【十恶不赦】吗？"
+    "KillShiEBuSheFinish"                   "这是给你的奖励。"
+
+    "ChallengeGuangMingDing"                "历练4：勇闯光明顶"
+    "ChallengeGuangMingDingAccept"          "击败【光明顶所有boss怪物】完成任务。"
+    "ChallengeGuangMingDingInProgress"      "还没有打败【光明顶所有boss怪物】吗？"
+    "ChallengeGuangMingDingFinish"          "这是给你的奖励。"
+
+    "HuaShanLunJian"                        "历练5：华山论剑"
+    "HuaShanLunJianAccept"                  "击败【四绝】完成任务。"
+    "HuaShanLunJianInProgress"              "还没有击败【四绝】吗？"
+    "HuaShanLunJianFinish"                  "这是给你的奖励。"
+
+    "VisitHuangXiaoRong"                    "送信任务"
+    "VisitHuangXiaoRongAccept"              "给【黄小蓉】送个信，我会给你些报酬。"
+    "VisitHuangXiaoRongInProgress"           "还没有给【黄小蓉】送信吗？"
+    "VisitHuangXiaoRongFinish"              "这是给你的奖励。"
+
+    "VisitQiaoFeng"                         "送信任务"
+    "VisitQiaoFengAccept"                   "给【乔峰】送个信，我会给你些报酬。"
+    "VisitQiaoFengInProgress"               "还没有给【乔峰】送信吗？"
+    "VisitQiaoFengFinish"                   "这是给你的奖励。"
+
+    "VisitDaMo"                             "送信任务"
+    "VisitDaMoAccept"                       "给【达摩祖师】送个信，我会给你些报酬。"
+    "VisitDaMonInProgress"                    "还没有给【达摩祖师】送信吗？"
+    "VisitDaMoFinish"                       "这是给你的奖励。"
+
+    "KillingTask"                           "阳寿已尽任务"
+    "KillingTaskAccept"                     "老夫夜观天象，【#{random}】阳寿已尽，请速去杀掉他！"
+    "KillingTaskInProgress"                  "还没有杀掉【#{random}】送信吗？"
+    "KillingTaskFinish"                     "这是给你的奖励。"
+
+	"Noquest"								"我已经没有任务给你了。"
+
+}

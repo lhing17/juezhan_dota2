@@ -1,0 +1,10 @@
+"CustomHeroList"
+{
+        "npc_dota_hero_juggernaut"       	"1"     //魔君
+        "npc_dota_hero_sven"                "1"     //浪云
+        "npc_dota_hero_crystal_maiden" 		"1"     //兰馨
+        "npc_dota_hero_lina" 				"1"     //若蝶
+        "npc_dota_hero_kunkka" 				"1"     //潇侠
+        "npc_dota_hero_windrunner" 			"1"     //莫言
+        "npc_dota_hero_ancient_apparition"  "1"     //瑾轩
+}

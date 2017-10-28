@@ -1,0 +1,58 @@
+<root>
+    <!--左侧属性面板-->
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c"/>
+        <include src="file://{resources}/styles/custom_game/avalon.css"/>
+        <include src="file://{resources}/styles/custom_game/attribute_panel.css"/>
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/attribute_panel.js"/>
+    </scripts>
+    <Panel hittest="false">
+        <Panel id="attribute">
+            <Panel class="attributeRow light">
+                <Label id="title" text="#HeroAttribute"/>
+            </Panel>
+            <Panel class="attributeRow dark">
+                <Label id="denomination" class="attributeName" text="#denomination"/>
+                <Label id="denominationValue" class="attributeValue" text="#noDenomination"/>
+            </Panel>
+            <Panel class="attributeRow light">
+                <Label id="criticalRate" class="attributeName" text="#criticalRate"/>
+                <Label id="criticalRateValue" class="attributeValue" text="0%"/>
+            </Panel>
+            <Panel class="attributeRow dark">
+                <Label id="criticalDamage" class="attributeName" text="#criticalDamage"/>
+                <Label id="criticalDamageValue" class="attributeValue" text="0%"/>
+            </Panel>
+            <Panel class="attributeRow light">
+                <Label id="damageAddition" class="attributeName" text="#damageAddition"/>
+                <Label id="damageAdditionValue" class="attributeValue" text="0%"/>
+            </Panel>
+            <Panel class="attributeRow dark">
+                <Label id="damageAbsorb" class="attributeName" text="#damageAbsorb"/>
+                <Label id="damageAbsorbValue" class="attributeValue" text="0%"/>
+            </Panel>
+            <Panel class="attributeRow light">
+                <Label id="uniqueSkillPerception" class="attributeName" text="#uniqueSkillPerception"/>
+                <Label id="uniqueSkillPerceptionValue" class="attributeValue" text="1"/>
+            </Panel>
+            <Panel class="attributeRow dark">
+                <Label id="practice" class="attributeName" text="#practice"/>
+                <Label id="practiceValue" class="attributeValue" text="0"/>
+            </Panel>
+            <Panel class="attributeRow light">
+                <Label id="skillCultivation" class="attributeName" text="#skillCultivation"/>
+                <Label id="skillCultivationValue" class="attributeValue" text="0"/>
+            </Panel>
+            <Panel class="attributeRow dark">
+                <Label id="reputation" class="attributeName" text="#reputation"/>
+                <Label id="reputationValue" class="attributeValue" text="0"/>
+            </Panel>
+            <Panel class="attributeRow light">
+                <Label id="point" class="attributeName" text="#point"/>
+                <Label id="pointValue" class="attributeValue" text="0"/>
+            </Panel>
+        </Panel>
+    </Panel>
+</root>

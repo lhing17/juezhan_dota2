@@ -1,0 +1,12 @@
+<root>
+  <styles>
+    <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+    <include src="file://{resources}/styles/custom_game/custom_ability_slot.css" />
+  </styles>
+  <scripts>
+  </scripts>
+  <Panel hittest="false" class="AbilitySlotPlayerWrapper">
+  	<Panel hittest="false" id="PlayerHeroAbilityContainer">
+  	</Panel>
+  </Panel>
+</root>

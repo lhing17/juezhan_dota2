@@ -1,0 +1,167 @@
+//File edited with Simple Dota 2 Editor
+//https://github.com/Oplkill/Simple-Dota-2-Editor
+
+"DOTAHeroes"
+{
+  "npc_dota_hero_ancient_apparition_barebones" //瑾轩
+  {
+    "AbilityLayout"     "12"
+    "override_hero"     "npc_dota_hero_ancient_apparition"
+    "SoundSet"          "0"
+
+    "Ability1"          "barebones_empty1"
+    "Ability2"          "barebones_empty2"
+    "Ability3"          "barebones_empty3"
+    "Ability4"          "barebones_empty4"
+    "Ability5"          "barebones_empty5"
+    "Ability6"          "barebones_empty6"
+    "Ability7"          "barebones_empty7"
+    "Ability8"          "barebones_empty8"
+    "Ability9"          "barebones_empty9"
+    "Ability10"         "barebones_empty10"
+    "Ability11"         "barebones_empty11"
+    "Ability12"         "barebones_empty12"
+
+    "ArmorPhysical"       "0"                 // Physical protection.
+    "MagicalResistance"       "0"                 // Magical protection (percentage).
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
+    "AttackDamageMin"     "1"                   // Damage range min.
+    "AttackDamageMax"     "1"                   // Damage range max.
+
+    //"AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength"   "0"                   // Base strength
+    "AttributeStrengthGain"   "0"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "0"                   // Base intelligence
+    "AttributeIntelligenceGain" "0"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "0"                   // Base agility
+    "AttributeAgilityGain"    "0"                   // Agility bonus per level.
+
+    "BountyXP"          "0"                 // Experience earn.
+    "BountyGoldMin"       "0"                   // Gold earned min.
+    "BountyGoldMax"       "0"                   // Gold earned max.
+
+    //"BoundsHullName"      "DOTA_HULL_SIZE_HERO"
+    //"RingRadius"        "70"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "360"                 // Speed.
+    "MovementTurnRate"      "1.0"                 // Turning rate.
+
+    "StatusHealth"        "1000"                 // Base health.
+    "StatusHealthRegen"     "0.0"                 // Health regeneration rate.
+    "StatusMana"        "400"                   // Base mana.
+    "StatusManaRegen"     "100.0"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "1800"                  // Range of vision at night time.
+  }
+  "npc_dota_hero_juggernaut_override" //魔君
+  {
+          "override_hero"                                "npc_dota_hero_juggernaut"
+          "AbilityLayout"									"12"
+          "Ability1"                                        "shaolin_dalijingangzhi"
+          "Ability2"                                        "shaolin_weituogunfa"
+          "Ability3"                                        "shaolin_damojianfa"
+          "Ability4"                                        "jianghu_huagongdafa"
+          "Ability5"                                        "jianghu_qishangquan"
+          "Ability6"                                        "barebones_empty6"
+          "Ability7"                                        "barebones_empty7"
+          "Ability8"                                        "barebones_empty8"
+          "Ability9"                                        "barebones_empty9"
+          "Ability10"                                        "barebones_empty10"
+          "Ability11"                                        "barebones_empty11"
+          "Ability12"                                        "barebones_empty12"
+          "VisionNighttimeRange"                            "1800"
+  }
+  "npc_dota_hero_sven_override" //浪云
+  {
+          "override_hero"                                "npc_dota_hero_sven"
+          "AbilityLayout"									"12"
+          "Ability1"                                        "barebones_empty1"
+          "Ability2"                                        "barebones_empty2"
+          "Ability3"                                        "barebones_empty3"
+          "Ability4"                                        "barebones_empty4"
+          "Ability5"                                        "barebones_empty5"
+          "Ability6"                                        "barebones_empty6"
+          "Ability7"                                        "barebones_empty7"
+          "Ability8"                                        "barebones_empty8"
+          "Ability9"                                        "barebones_empty9"
+          "Ability10"                                        "barebones_empty10"
+          "Ability11"                                        "barebones_empty11"
+          "Ability12"                                        "barebones_empty12"
+          "VisionNighttimeRange"                            "1800"
+  }
+  "npc_dota_hero_crystal_maiden_override" //兰馨
+  {
+          "override_hero"                                "npc_dota_hero_crystal_maiden"
+          "AbilityLayout"									"12"
+          "Ability1"                                        "barebones_empty1"
+          "Ability2"                                        "barebones_empty2"
+          "Ability3"                                        "barebones_empty3"
+          "Ability4"                                        "barebones_empty4"
+          "Ability5"                                        "barebones_empty5"
+          "Ability6"                                        "barebones_empty6"
+          "Ability7"                                        "barebones_empty7"
+          "Ability8"                                        "barebones_empty8"
+          "Ability9"                                        "barebones_empty9"
+          "Ability10"                                        "barebones_empty10"
+          "Ability11"                                        "barebones_empty11"
+          "Ability12"                                        "barebones_empty12"
+          "VisionNighttimeRange"                            "1800"
+  }
+  "npc_dota_hero_lina_override" //若蝶
+  {
+          "override_hero"                                "npc_dota_hero_lina"
+          "AbilityLayout"									"12"
+          "Ability1"                                        "barebones_empty1"
+          "Ability2"                                        "barebones_empty2"
+          "Ability3"                                        "barebones_empty3"
+          "Ability4"                                        "barebones_empty4"
+          "Ability5"                                        "barebones_empty5"
+          "Ability6"                                        "barebones_empty6"
+          "Ability7"                                        "barebones_empty7"
+          "Ability8"                                        "barebones_empty8"
+          "Ability9"                                        "barebones_empty9"
+          "Ability10"                                        "barebones_empty10"
+          "Ability11"                                        "barebones_empty11"
+          "Ability12"                                        "barebones_empty12"
+          "VisionNighttimeRange"                            "1800"
+  }
+  "npc_dota_hero_kunkka_override" //潇侠
+  {
+          "override_hero"                                "npc_dota_hero_kunkka"
+          "AbilityLayout"									"12"
+          "Ability1"                                        "barebones_empty1"
+          "Ability2"                                        "barebones_empty2"
+          "Ability3"                                        "barebones_empty3"
+          "Ability4"                                        "barebones_empty4"
+          "Ability5"                                        "barebones_empty5"
+          "Ability6"                                        "barebones_empty6"
+          "Ability7"                                        "barebones_empty7"
+          "Ability8"                                        "barebones_empty8"
+          "Ability9"                                        "barebones_empty9"
+          "Ability10"                                        "barebones_empty10"
+          "Ability11"                                        "barebones_empty11"
+          "Ability12"                                        "barebones_empty12"
+          "VisionNighttimeRange"                            "1800"
+  }
+  "npc_dota_hero_windrunner_override" //莫言
+  {
+          "override_hero"                                "npc_dota_hero_windrunner"
+          "AbilityLayout"									"12"
+          "Ability1"                                        "barebones_empty1"
+          "Ability2"                                        "barebones_empty2"
+          "Ability3"                                        "barebones_empty3"
+          "Ability4"                                        "barebones_empty4"
+          "Ability5"                                        "barebones_empty5"
+          "Ability6"                                        "barebones_empty6"
+          "Ability7"                                        "barebones_empty7"
+          "Ability8"                                        "barebones_empty8"
+          "Ability9"                                        "barebones_empty9"
+          "Ability10"                                        "barebones_empty10"
+          "Ability11"                                        "barebones_empty11"
+          "Ability12"                                        "barebones_empty12"
+          "VisionNighttimeRange"                            "1800"
+  }
+}

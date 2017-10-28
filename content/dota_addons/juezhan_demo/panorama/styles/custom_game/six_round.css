@@ -1,0 +1,42 @@
+#sixRound {
+    margin-left: 80%;
+    margin-top: 89%;
+    width: 400px;
+    height: 120px;
+    background-color: #22527666;
+    flow-children: down;
+}
+
+.sixRoundRow {
+    width: 100%;
+    height: 50%;
+    flow-children: right;
+}
+
+.word {
+    height: 100%;
+    font-size: 25px;
+    font-family: Radiance, FZLanTingHei-R-GBK, TH Sarabun New, Gulim, MingLiU;
+    text-align: center;
+    padding-top: 15px;
+    align: center center;
+    color: yellow;
+}
+
+.name {
+    width: 20%;
+}
+
+.value {
+    width: 13.33%;
+}
+
+.dark {
+    background-color: #22527699;
+    saturation: 1;
+}
+
+.light {
+    saturation: 0.7;
+    background-color: #22527666;
+}

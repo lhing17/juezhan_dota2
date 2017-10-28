@@ -1,0 +1,30 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/Custom_RightIcons.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/Custom_RightIcons.js" />
+	</scripts>
+	<Panel>
+		<Panel id="rightIcons">
+			<Panel class="rightIcon" id="tasks" onactivate="toggleTasks()"/>
+			<Panel class="rightIcon" id="properties" />
+			<Panel class="rightIcon" id="shops" />
+			<Panel class="rightIcon" id="rules" />
+			<Panel class="rightIcon" id="informations" />
+		</Panel>
+		<Panel id="taskList">
+			<Label id="title" text="#MyTasks"/>
+			<Panel class="task">
+				<Image class="taskImage" src="file://{images}/custom_game/tasks.psd"/>
+				<Label class="description" text="#desc"/>
+				<Label class="status" text="#ready"/>
+			</Panel>
+			<Panel class="task">
+				<Image class="taskImage" src="file://{images}/custom_game/tasks.psd"/>
+				<Label class="description" text="#desc"/>
+				<Label class="status" text="#ready"/>
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

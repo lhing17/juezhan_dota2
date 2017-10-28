@@ -1,0 +1,30 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c"/>
+        <include src="file://{resources}/styles/custom_game/avalon.css"/>
+        <include src="file://{resources}/styles/custom_game/six_round.css"/>
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/six_round.js"/>
+    </scripts>
+    <Panel hittest="false">
+        <Panel id="sixRound">
+            <Panel class="sixRoundRow">
+                <Label id="wuxing" class="dark word name" text="#wuxing"/>
+                <Label id="wuxingValue" class="dark word value" text="#0"/>
+                <Label id="gengu" class="light word name" text="#gengu"/>
+                <Label id="genguValue" class="light word value" text="0"/>
+                <Label id="danpo" class="dark word name" text="#danpo"/>
+                <Label id="danpoValue" class="dark word value" text="0"/>
+            </Panel>
+            <Panel class="sixRoundRow">
+                <Label id="yishu" class="light word name" text="#yishu"/>
+                <Label id="yishuValue" class="light word value" text="0"/>
+                <Label id="jingmai" class="dark word name" text="#jingmai"/>
+                <Label id="jingmaiValue" class="dark word value" text="0"/>
+                <Label id="fuyuan" class="light word name" text="#fuyuan"/>
+                <Label id="fuyuanValue" class="light word value" text="0"/>
+            </Panel>
+        </Panel>
+    </Panel>
+</root>

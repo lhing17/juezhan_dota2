@@ -1,0 +1,51 @@
+#attribute {
+    margin-top: 30%;
+    width: 300px;
+    height: 500px;
+    flow-children: down;
+    background-color: #22527666;
+   /* border: 1px solid red;*/
+}
+
+.attributeRow {
+    width: 100%;
+    flow-children: right;
+    height: 9.09%;
+}
+
+#title {
+    width: 100%;
+    font-size: 25px;
+    font-family: Radiance, FZLanTingHei-R-GBK, TH Sarabun New, Gulim, MingLiU;
+    text-align: center;
+    align: left center;
+    color: yellow;
+}
+
+.attributeName {
+    font-size: 25px;
+    font-family: Radiance, FZLanTingHei-R-GBK, TH Sarabun New, Gulim, MingLiU;
+    width: 50%;
+    padding-left: 15px;
+    align: left center;
+    color: yellow;
+}
+
+.attributeValue {
+    font-size: 25px;
+    font-family: Radiance, FZLanTingHei-R-GBK, TH Sarabun New, Gulim, MingLiU;
+    width: 50%;
+    padding-right: 15px;
+    text-align: right;
+    align: right center;
+    color: yellow;
+}
+
+.dark{
+    background-color: #22527699;
+    saturation: 1;
+}
+.light{
+    saturation: 0.7;
+    background-color: #22527666 ;
+}
