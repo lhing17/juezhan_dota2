@@ -8,11 +8,11 @@
 
         //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_TIMEOFDAY, false ); //Time of day (clock).
         GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_HEROES, false ); //Heroes and team score at the top of the HUD.
-        GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_FLYOUT_SCOREBOARD, true ); //Lefthand flyout scoreboard.
+        GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_FLYOUT_SCOREBOARD, true ); //Lefthand flyout coreboard.
         //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_ACTION_PANEL, false ); //Hero actions UI.
         GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_ACTION_MINIMAP, true ); //Minimap.
         //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_PANEL, false ); //Entire Inventory UI
-        GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_SHOP, false ); //Shop portion of  the Inventory.
+        //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_SHOP, false ); //Shop portion of the Inventory.
         //GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_ITEMS, false ); //Player items.
         GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_QUICKBUY, false ); //Quickbuy.
         GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_COURIER, false ); //Courier controls.
@@ -61,9 +61,11 @@
         <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/modmaker/modmaker.xml"/>
         <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/selection.xml"/>
         <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/pick_hero.xml"/>
-        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/attribute_panel.xml"/>
-        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/six_round.xml"/>
-        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/bubble.xml" />
+        <!--<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/six_round.xml"/>
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/attribute_panel.xml"/>-->
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/bubble.xml"/>
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/left_list.xml"/>
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/quest.xml"/>
         <!-- From Overthrow.
 
             <CustomUIElement type="Hud"                 layoutfile="file://{resources}/layout/custom_game/overthrow_item_notification.xml" />

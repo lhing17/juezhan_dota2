@@ -30,6 +30,7 @@ function VisitTriggerNpc(t)
             -- 判断已接受任务且未完成
             if caster[questName] then
                 if caster[questName].completed == false then
+                    caster[questName].remainCount = 1
                     caster[questName].completed = true
                     Quest:UpdateUI(caster, questName)
                 end
@@ -250,5 +251,5 @@ end
 function Quest:UpdateUI( caster, questName )
     local player = caster:GetPlayerOwner()
     local remainCount = caster[questName].remainCount
-    CustomGameEventManager:Send_ServerToPlayer(player, "updata_quest", { quest_name = questName, remain_count = remainCount })
+    CustomGameEventManager:Send_ServerToPlayer(player, "update_quest", { quest_name = questName, remain_count = remainCount })
 end

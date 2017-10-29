@@ -86,12 +86,12 @@
 	"KillScorpionsInprogress"				"我要3只【蝎子】，你当我不识数吗?"
 	"KillScorpionsFinish"                   "这是给你的奖励。"
 
-    "KillPioneer"                           "辽国军心"
+    "KillPioneer"                           "辽国军心："
     "KillPioneerAccept"                     "辽国养兵蓄锐，似乎对大宋有所企图，若能击败【辽国第一先锋】，延缓战事，则百姓才可过上太平日子。"
     "KillPioneerInProgress"                 "还没有击败【辽国第一先锋】吗？"
     "KillPioneerFinish"                     "这是给你的奖励。"
 
-    "ExploreGaoChangMaze"                   "探索高昌迷宫"
+    "ExploreGaoChangMaze"                   "探索高昌迷宫："
     "ExploreGaoChangMazeAccept"             "前往高昌迷宫击杀10只【门派叛徒】和10只【武林恶徒】。"
     "ExploreGaoChangMazeInProgress"         "还没有击杀10只【门派叛徒】和10只【武林恶徒】吗？"
     "ExploreGaoChangMazeFinish"             "这是给你的奖励。"
@@ -121,22 +121,22 @@
     "HuaShanLunJianInProgress"              "还没有击败【四绝】吗？"
     "HuaShanLunJianFinish"                  "这是给你的奖励。"
 
-    "VisitHuangXiaoRong"                    "送信任务"
+    "VisitHuangXiaoRong"                    "送信给黄小蓉："
     "VisitHuangXiaoRongAccept"              "给【黄小蓉】送个信，我会给你些报酬。"
     "VisitHuangXiaoRongInProgress"           "还没有给【黄小蓉】送信吗？"
     "VisitHuangXiaoRongFinish"              "这是给你的奖励。"
 
-    "VisitQiaoFeng"                         "送信任务"
+    "VisitQiaoFeng"                         "送信给乔峰："
     "VisitQiaoFengAccept"                   "给【乔峰】送个信，我会给你些报酬。"
     "VisitQiaoFengInProgress"               "还没有给【乔峰】送信吗？"
     "VisitQiaoFengFinish"                   "这是给你的奖励。"
 
-    "VisitDaMo"                             "送信任务"
+    "VisitDaMo"                             "送信给达摩祖师："
     "VisitDaMoAccept"                       "给【达摩祖师】送个信，我会给你些报酬。"
     "VisitDaMonInProgress"                    "还没有给【达摩祖师】送信吗？"
     "VisitDaMoFinish"                       "这是给你的奖励。"
 
-    "KillingTask"                           "阳寿已尽任务"
+    "KillingTask"                           "阳寿已尽任务："
     "KillingTaskAccept"                     "老夫夜观天象，【#{random}】阳寿已尽，请速去杀掉他！"
     "KillingTaskInProgress"                  "还没有杀掉【#{random}】送信吗？"
     "KillingTaskFinish"                     "这是给你的奖励。"

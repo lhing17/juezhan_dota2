@@ -186,4 +186,35 @@
       }
     }
   }
+
+  // 青铜刀
+  "item_weapon_qingtong"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    "ID"              "1837"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "BaseClass"         "item_datadriven"
+    "AbilityTextureName"        "item_weapon_qingtong"
+
+    "ItemCost"            "200"
+    "ItemPurchasable"          "1"
+    "ItemKillable"             "1"
+    "ItemDroppable"            "1"
+    "ItemSellable"             "1"
+    "ItemQuality"              "rare"
+    "ItemShareability"         "ITEM_FULLY_SHAREABLE"
+
+    // Casting
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCastRange"        "0"
+
+    // Time
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityCooldown"       "0"
+
+    // Cost
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilityManaCost"       "0"
+  }
 }
