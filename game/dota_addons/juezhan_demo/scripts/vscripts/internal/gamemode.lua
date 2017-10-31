@@ -309,6 +309,7 @@ end
 mode = nil
 
 -- This function is called as the first player loads and sets up the GameMode parameters
+-- 设置游戏参数
 function GameMode:_CaptureGameMode()
     if mode == nil then
         -- Set GameMode parameters
@@ -354,6 +355,10 @@ function GameMode:_CaptureGameMode()
         mode:SetDaynightCycleDisabled( DISABLE_DAY_NIGHT_CYCLE )
         mode:SetKillingSpreeAnnouncerDisabled( DISABLE_KILLING_SPREE_ANNOUNCER )
         mode:SetStickyItemDisabled( DISABLE_STICKY_ITEM )
+
+        -- filter 过滤器
+        mode:SetModifyGoldFilter(Dynamic_Wrap( GuardingAthena, "ModifyGoldFilter" ), self )
+
 
         self:OnFirstPlayerLoaded()
     end

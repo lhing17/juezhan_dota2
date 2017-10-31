@@ -204,17 +204,260 @@
     "ItemSellable"             "1"
     "ItemQuality"              "rare"
     "ItemShareability"         "ITEM_FULLY_SHAREABLE"
+    "precache"
+	{
+		"particle"	"particles/generic_gameplay/generic_lifesteal_lanecreeps.vpcf"
+		"particle"	"particles/items/blood_mask.vpcf"
+	}
 
-    // Casting
+    "Modifiers"
+    {
+        "modifier_item_weapon_qingtong"
+        {
+            "Passive"   "1"
+            "OnAttackLanded"
+            {
+                "AttachEffect"
+                {
+                    "Target"    "ATTACKER"
+                    "EffectName"	"particles/generic_gameplay/generic_lifesteal_lanecreeps.vpcf"
+                    "EffectAttachType"	"follow_origin"
+                }
+                "Lifesteal"
+                {
+                    "Target"    "ATTACKER"
+                    "LifestealPercent"  "%lifesteal"
+                }
+            }
+            "Properties"
+            {
+                "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"  "%attack" //增加附加攻击力
+            }
+        }
+    }
+    "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"  "FIELD_INTEGER"
+            "lifesteal"    "10"
+        }
+        "02"
+        {
+            "var_type"  "FIELD_INTEGER"
+            "attack"    "100"
+        }
+    }
+  }
+  // 富可敌国令
+  "item_special_fuke"
+  {
+    // General
     //-------------------------------------------------------------------------------------------------------------
-    "AbilityCastRange"        "0"
+    "ID"              "1838"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "BaseClass"         "item_datadriven"
+    "AbilityTextureName"        "item_special_fuke"
 
-    // Time
-    //-------------------------------------------------------------------------------------------------------------
-    "AbilityCooldown"       "0"
+    "ItemCost"            "200"
+    "ItemPurchasable"          "1"
+    "ItemKillable"             "1"
+    "ItemDroppable"            "1"
+    "ItemSellable"             "1"
+    "ItemQuality"              "rare"
+    "ItemShareability"         "ITEM_FULLY_SHAREABLE"
 
-    // Cost
+    "Modifiers"
+    {
+        "modifier_item_special_fuke"
+        {
+            "Passive"   "1"
+            "OnCreated"
+            {
+                "RunScript"
+                {
+                    "ScriptFile"	"scripts/vscripts/ability_item.lua"
+                    "Function"	"FuKeDiGuo"
+                }
+            }
+        }
+    }
+    "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"  "FIELD_INTEGER"
+            "goldrate"    "20"
+        }
+    }
+  }
+  // 养精蓄锐令
+  "item_special_yangjing"
+  {
+    // General
     //-------------------------------------------------------------------------------------------------------------
-    "AbilityManaCost"       "0"
+    "ID"              "1839"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "BaseClass"         "item_datadriven"
+    "AbilityTextureName"        "item_special_yangjing"
+
+    "ItemCost"            "200"
+    "ItemPurchasable"          "1"
+    "ItemKillable"             "1"
+    "ItemDroppable"            "1"
+    "ItemSellable"             "1"
+    "ItemQuality"              "rare"
+    "ItemShareability"         "ITEM_FULLY_SHAREABLE"
+
+    "Modifiers"
+    {
+        "modifier_item_special_yangjing"
+        {
+            "Passive"   "1"
+            "Properties"
+            {
+                "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"  "%attack" //增加附加攻击力
+            }
+        }
+    }
+    "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"  "FIELD_INTEGER"
+            "lifesteal"    "10"
+        }
+        "02"
+        {
+            "var_type"  "FIELD_INTEGER"
+            "attack"    "100"
+        }
+    }
+  }
+  // 草鞋
+  "item_shoe_caoxie"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    "ID"              "1840"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "BaseClass"         "item_datadriven"
+    "AbilityTextureName"        "item_shoe_caoxie"
+
+    "ItemCost"            "200"
+    "ItemPurchasable"          "1"
+    "ItemKillable"             "1"
+    "ItemDroppable"            "1"
+    "ItemSellable"             "1"
+    "ItemQuality"              "rare"
+    "ItemShareability"         "ITEM_FULLY_SHAREABLE"
+
+    "Modifiers"
+    {
+        "modifier_item_shoe_caoxie"
+        {
+            "Passive"   "1"
+            "Properties"
+            {
+                "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"    "%movespeed"  //移动速度
+            }
+        }
+    }
+    "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"  "FIELD_INTEGER"
+            "movespeed"    "50"
+        }
+    }
+  }
+  // 环戒
+  "item_accessory_huanjie"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    "ID"              "1841"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "BaseClass"         "item_datadriven"
+    "AbilityTextureName"        "item_accessory_huanjie"
+
+    "ItemCost"            "200"
+    "ItemPurchasable"          "1"
+    "ItemKillable"             "1"
+    "ItemDroppable"            "1"
+    "ItemSellable"             "1"
+    "ItemQuality"              "rare"
+    "ItemShareability"         "ITEM_FULLY_SHAREABLE"
+
+    "Modifiers"
+    {
+        "modifier_item_accessory_huanjie"
+        {
+            "Passive"   "1"
+            "Properties"
+            {
+                "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "attackspeed" // 增加攻速
+                "MODIFIER_PROPERTY_EVASION_CONSTANT"           "evasion"  // 闪避
+            }
+        }
+    }
+    "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"  "FIELD_INTEGER"
+            "attackspeed"    "10"
+        }
+        "02"
+        {
+            "var_type"  "FIELD_INTEGER"
+            "evasion"    "100"
+        }
+    }
+  }
+  // 布衣
+  "item_cloth_buyi"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    "ID"              "1837"
+    "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "BaseClass"         "item_datadriven"
+    "AbilityTextureName"        "item_cloth_buyi"
+
+    "ItemCost"            "200"
+    "ItemPurchasable"          "1"
+    "ItemKillable"             "1"
+    "ItemDroppable"            "1"
+    "ItemSellable"             "1"
+    "ItemQuality"              "rare"
+    "ItemShareability"         "ITEM_FULLY_SHAREABLE"
+
+    "Modifiers"
+    {
+        "modifier_item_cloth_buyi"
+        {
+            "Passive"   "1"
+            "Properties"
+            {
+				"MODIFIER_PROPERTY_HEALTH_BONUS"	"%health" // 最大血量
+                "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"  "%armor"  // 增加护甲
+            }
+        }
+    }
+    "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"  "FIELD_INTEGER"
+            "health"    "2000"
+        }
+        "02"
+        {
+            "var_type"  "FIELD_INTEGER"
+            "armor"    "10"
+        }
+    }
   }
 }

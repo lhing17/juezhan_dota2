@@ -2,12 +2,16 @@
 {
         "consumables"  //消耗品
         {
-            "item"                "item_weapon_qingtong"
         }
 
         "attributes"  //属性物品
         {
             "item"                "item_weapon_qingtong"
+            "item"                "item_special_yangjing"
+            "item"                "item_special_fuke"
+            "item"                "item_shoe_caoxie"
+            "item"                "item_cloth_buyi"
+            "item"                "item_accessory_huanjie"
         }
 
         "weapons_armor"
@@ -56,6 +60,5 @@
 
         "secretshop"  //神秘商店
         {
-                "item"        "item_weapon_qingtong"
         }
 }

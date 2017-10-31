@@ -10,6 +10,10 @@ function HeroSelected( id, keys )
         PlayerResource:ReplaceHeroWith(playerID, keys.hero, PlayerResource:GetGold(playerID), 0)
         heroEntity:RemoveSelf()
     end)
+
+    -- 初始化英雄
+    heroEntity = PlayerResource:GetPlayer(playerID):GetAssignedHero()
+    HeroState:InitHero(heroEntity)
 end
 function OnSelectDifficultyClick( id, keys )
     print("selectedDifficulty"..keys.difficulty)

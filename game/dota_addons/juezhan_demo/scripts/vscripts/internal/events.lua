@@ -35,7 +35,7 @@ function GameMode:_OnGameRulesStateChange(keys)
         self.player_count = PlayerResource:GetPlayerCountForTeam( DOTA_TEAM_GOODGUYS )
         print("count of player" .. self.player_count)
 
-        print("任务系统准备初始化...")
+        -- print("任务系统准备初始化...")
         Quest:Init()
         --难度计算
         Timers:CreateTimer(HERO_SELECTION_TIME, function()
@@ -59,8 +59,8 @@ function GameMode:_OnGameRulesStateChange(keys)
             local select_difficulty = index
             CustomGameEventManager:Send_ServerToAllClients("difficulty", { difficulty = select_difficulty })
             for k, v in pairs(self.Players) do
-                print("denomination:" .. k)
-                print(self.Denomination[k])
+                --print("denomination:" .. k)
+                --print(self.Denomination[k])
                 CustomGameEventManager:Send_ServerToPlayer(v, "denomination", { denomination = self.Denomination[k] } )
             end
             GameRules:SetCustomGameDifficulty(select_difficulty)

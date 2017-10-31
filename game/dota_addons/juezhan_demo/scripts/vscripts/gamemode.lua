@@ -49,6 +49,8 @@ require('events')
 require('custom_events')
 
 require('spawn')
+require('filter')
+require('hero')
 
 -- This is a detailed example of many of the containers.lua possibilities, but only activates if you use the provided "playground" map
 if GetMapName() == "playground" then
