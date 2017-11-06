@@ -99,6 +99,7 @@ function GameMode:_OnNPCSpawned(keys)
 end
 
 -- An entity died
+-- 单位死亡事件
 function GameMode:_OnEntityKilled( keys )
 
     -- 野怪死后复活
@@ -130,6 +131,7 @@ function GameMode:_OnEntityKilled( keys )
 
     if keys.entindex_attacker ~= nil then
         killerEntity = EntIndexToHScript( keys.entindex_attacker )
+        print("[Entity Kill] current experience: "..killerEntity:GetCurrentXP())
     end
 
     if killedUnit:IsRealHero() then

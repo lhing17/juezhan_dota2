@@ -357,8 +357,8 @@ function GameMode:_CaptureGameMode()
         mode:SetStickyItemDisabled( DISABLE_STICKY_ITEM )
 
         -- filter 过滤器
-        mode:SetModifyGoldFilter(Dynamic_Wrap( GuardingAthena, "ModifyGoldFilter" ), self )
-
+        mode:SetModifyGoldFilter(Dynamic_Wrap( GameMode, "ModifyGoldFilter" ), self )
+        mode:SetModifyExperienceFilter(Dynamic_Wrap( GameMode, "ModifyExperienceFilter" ), self )
 
         self:OnFirstPlayerLoaded()
     end

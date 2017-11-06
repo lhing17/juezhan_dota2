@@ -416,7 +416,7 @@
         "02"
         {
             "var_type"  "FIELD_INTEGER"
-            "evasion"    "100"
+            "evasion"    "10"
         }
     }
   }

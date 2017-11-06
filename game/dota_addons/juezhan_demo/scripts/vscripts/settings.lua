@@ -49,8 +49,9 @@ USE_CUSTOM_XP_VALUES = true             -- Should we use custom XP values to lev
 -- Fill this table up with the required XP per level if you want to change it 经验表
 XP_PER_LEVEL_TABLE = {}
 -- 原版决战经验值表 上一个值*上一个因数+固定因数+等级因数*当前等级
-XP_PER_LEVEL_TABLE[1] = 70
-for i = 2, MAX_LEVEL do
+XP_PER_LEVEL_TABLE[1] = 0
+XP_PER_LEVEL_TABLE[2] = 70
+for i = 3, MAX_LEVEL do
     XP_PER_LEVEL_TABLE[i] = XP_PER_LEVEL_TABLE[i - 1] * 1.05 + 80 + 400 * (i + 1)
 end
 

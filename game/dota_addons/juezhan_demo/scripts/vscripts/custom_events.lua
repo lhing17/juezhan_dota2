@@ -15,7 +15,7 @@ function HeroSelected( id, keys )
        -- print(heroEntity:GetUnitName())
 
         HeroState:InitHero(heroEntity)
-        PrintTable(heroEntity)
+        -- PrintTable(heroEntity)
     end)
 end
 function OnSelectDifficultyClick( id, keys )
