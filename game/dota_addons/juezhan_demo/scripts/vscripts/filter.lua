@@ -347,10 +347,6 @@ function GameMode:ModifyExperienceFilter( keys )
     --PrintTable(keys)
     local playerID = keys.player_id_const
     local hero = PlayerResource:GetPlayer(playerID):GetAssignedHero()
-    local reborntimes = hero.reborn_time or 0
-    if hero:GetLevel() >= (reborntimes + 1) * 100 then
-        return false
-    end
     if keys.reason_const == DOTA_ModifyXP_CreepKill then
         if hero.exp_rate then
             keys.experience = keys.experience * (1 + hero.exp_rate * 0.01)

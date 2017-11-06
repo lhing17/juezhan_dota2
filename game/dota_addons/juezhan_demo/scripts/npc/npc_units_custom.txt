@@ -2552,7 +2552,7 @@
         "BaseClass"          	"npc_dota_creature"
         "Model"					"models\items\beastmaster\boar\fotw_wolf\fotw_wolf.vmdl"
         "ModelScale" 			"0.8"
-        "level"					"2"
+        "level"					"1"
         "HealthBarOffset"		"140"
         "HasInventory"			"1"
 
@@ -2579,7 +2579,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"30"
+        "BountyXP"				"25"
         "BountyGoldMin"			"30"
         "BountyGoldMax"			"40"
 
@@ -2663,7 +2663,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"25"
+        "BountyXP"				"135"
         "BountyGoldMin"			"30.0"
         "BountyGoldMax"			"40.0"
 
@@ -2716,7 +2716,7 @@
         "BaseClass"          	"npc_dota_creature"
         "Model"					"models\heroes\sand_king\sand_king.vmdl"
         "ModelScale" 			"0.8"
-        "level"					"2"
+        "level"					"6"
         "HealthBarOffset"		"140"
         "HasInventory"			"1"
 
@@ -2743,7 +2743,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"35"
+        "BountyXP"				"175"
         "BountyGoldMin"			"50.0"
         "BountyGoldMax"			"60.0"
 
@@ -2796,7 +2796,7 @@
         "BaseClass"          	"npc_dota_creature"
         "Model"					"models\heroes\lone_druid\spirit_bear.vmdl"
         "ModelScale" 			"0.8"
-        "level"					"2"
+        "level"					"30"
         "HealthBarOffset"		"140"
         "HasInventory"			"1"
 
@@ -2877,7 +2877,7 @@
         "BaseClass"          	"npc_dota_creature"
         "Model"					"models/heroes/bristleback/bristleback.vmdl"
         "ModelScale" 			"0.8"
-        "level"					"2"
+        "level"					"10"
         "HealthBarOffset"		"140"
         "HasInventory"			"1"
 
@@ -2904,7 +2904,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"100"
+        "BountyXP"				"385"
         "BountyGoldMin"			"150"
         "BountyGoldMax"			"200"
 
@@ -2952,7 +2952,7 @@
         "BaseClass"          	"npc_dota_creature"
         "Model"					"models/heroes/blood_seeker/blood_seeker.vmdl"
         "ModelScale" 			"1.0"
-        "level"					"2"
+        "level"					"10"
         "HealthBarOffset"		"140"
         "HasInventory"			"1"
 
@@ -2979,7 +2979,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"100"
+        "BountyXP"				"385"
         "BountyGoldMin"			"150"
         "BountyGoldMax"			"200"
 
@@ -3055,7 +3055,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"100"
+        "BountyXP"				"595"
         "BountyGoldMin"			"150"
         "BountyGoldMax"			"200"
 
@@ -3129,7 +3129,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"100"
+        "BountyXP"				"520"
         "BountyGoldMin"			"150"
         "BountyGoldMax"			"200"
 
@@ -3204,7 +3204,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"100"
+        "BountyXP"				"595"
         "BountyGoldMin"			"150"
         "BountyGoldMax"			"200"
 
@@ -3279,7 +3279,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"100"
+        "BountyXP"				"595"
         "BountyGoldMin"			"150"
         "BountyGoldMax"			"200"
 
@@ -3356,7 +3356,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"100"
+        "BountyXP"				"760"
         "BountyGoldMin"			"150"
         "BountyGoldMax"			"200"
 
@@ -3567,7 +3567,7 @@
         "BaseClass"          	"npc_dota_creature"
         "Model"					"models/heroes/beastmaster/beastmaster.vmdl"
         "ModelScale" 			"1.0"
-        "level"					"2"
+        "level"					"11"
         "HealthBarOffset"		"140"
         "HasInventory"			"1"
 
@@ -3594,7 +3594,7 @@
 
         //Bounty
         //-----------------------------------------------------------
-        "BountyXP"				"100"
+        "BountyXP"				"450"
         "BountyGoldMin"			"150"
         "BountyGoldMax"			"200"
 

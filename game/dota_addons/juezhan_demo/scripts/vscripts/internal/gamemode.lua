@@ -323,7 +323,7 @@ function GameMode:_CaptureGameMode()
         mode:SetTopBarTeamValuesVisible( TOP_BAR_VISIBLE )
         mode:SetUseCustomHeroLevels( USE_CUSTOM_HERO_LEVELS )
         mode:SetCustomHeroMaxLevel( MAX_LEVEL )
-        mode:SetCustomXPRequiredToReachNextLevel( XP_PER_LEVEL_TABLE )
+        mode:SetCustomXPRequiredToReachNextLevel( XP_PER_LEVEL_TABLE ) -- 设置升级所需经验
 
         mode:SetBotThinkingEnabled( USE_STANDARD_DOTA_BOT_THINKING )
         mode:SetTowerBackdoorProtectionEnabled( ENABLE_TOWER_BACKDOOR_PROTECTION )
