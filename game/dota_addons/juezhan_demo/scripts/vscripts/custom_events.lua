@@ -9,11 +9,14 @@ function HeroSelected( id, keys )
     PrecacheUnitByNameAsync(keys.hero, function()
         PlayerResource:ReplaceHeroWith(playerID, keys.hero, PlayerResource:GetGold(playerID), 0)
         heroEntity:RemoveSelf()
-    end)
+        -- 初始化英雄
+        heroEntity = PlayerResource:GetPlayer(playerID):GetAssignedHero()
+       -- print("this is hero name: ")
+       -- print(heroEntity:GetUnitName())
 
-    -- 初始化英雄
-    heroEntity = PlayerResource:GetPlayer(playerID):GetAssignedHero()
-    HeroState:InitHero(heroEntity)
+        HeroState:InitHero(heroEntity)
+        PrintTable(heroEntity)
+    end)
 end
 function OnSelectDifficultyClick( id, keys )
     print("selectedDifficulty"..keys.difficulty)

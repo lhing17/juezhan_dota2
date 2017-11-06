@@ -20,9 +20,9 @@ function Qishangquan(t)
                             ability = playerHero:GetAbilityByIndex(0), --Optional.]]
             }
             ApplyDamage(damageTable)
-            print(particleName)
+            -- print(particleName)
             local particleId = CreateParticle(particleName, PATTACH_ABSORIGIN_FOLLOW, v, 1.0)
-            print(k .. ", particleId: " .. particleId)
+            -- print(k .. ", particleId: " .. particleId)
             ParticleManager:SetParticleControl(particleId, 0, Vector(0, 0, 0))
             ParticleManager:SetParticleControl(particleId, 1, Vector(0, 0, 0))
             ParticleManager:SetParticleControl(particleId, 3, Vector(0, 0, 0))

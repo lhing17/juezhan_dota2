@@ -18,14 +18,14 @@ end
 
 -- 进入被访问NPC的范围
 function VisitTriggerNpc(t)
-    print("enter visit trigger npc")
+    print("[QUEST] enter visit trigger npc")
     local npc = t.caster -- 拜访的NPC
     local caster = t.target -- 玩家的英雄
-    print(npc:GetUnitName())
-    print(caster:GetUnitName())
+   -- print(npc:GetUnitName())
+   -- print(caster:GetUnitName())
     for questName, questInfo in pairs(Quest.questInfo) do
         -- 判断是否是任务需求单位
-        print(questInfo.targetName)
+        -- print(questInfo.targetName)
         if questInfo.targetName == npc:GetUnitName() then
             -- 判断已接受任务且未完成
             if caster[questName] then

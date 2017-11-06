@@ -37,6 +37,7 @@ function GameMode:_OnGameRulesStateChange(keys)
 
         -- print("任务系统准备初始化...")
         Quest:Init()
+        HeroState :Init()
         --难度计算
         Timers:CreateTimer(HERO_SELECTION_TIME, function()
             self.GameStartTime = GameRules:GetGameTime()

@@ -276,7 +276,7 @@
             {
                 "RunScript"
                 {
-                    "ScriptFile"	"scripts/vscripts/ability_item.lua"
+                    "ScriptFile"	"scripts/vscripts/abilities/other/ability_item.lua"
                     "Function"	"FuKeDiGuo"
                 }
             }
@@ -314,10 +314,14 @@
         "modifier_item_special_yangjing"
         {
             "Passive"   "1"
-            "Properties"
-            {
-                "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"  "%attack" //增加附加攻击力
-            }
+                "OnCreated"
+                {
+                    "RunScript"
+                    {
+                        "ScriptFile"	"scripts/vscripts/abilities/other/ability_item.lua"
+                        "Function"	"YangJingXuRui"
+                    }
+                }
         }
     }
     "AbilitySpecial"
@@ -397,8 +401,8 @@
             "Passive"   "1"
             "Properties"
             {
-                "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "attackspeed" // 增加攻速
-                "MODIFIER_PROPERTY_EVASION_CONSTANT"           "evasion"  // 闪避
+                "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%attackspeed" // 增加攻速
+                "MODIFIER_PROPERTY_EVASION_CONSTANT"           "%evasion"  // 闪避
             }
         }
     }

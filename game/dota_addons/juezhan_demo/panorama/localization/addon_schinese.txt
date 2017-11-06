@@ -82,7 +82,7 @@
 	"KillPigKingFinish"                     "这是给你的奖励。"
 
 	"KillScorpions"						    "杀蝎子："
-    "KillScorpionsAccept"					"有客人想吃照蝎子，帮我到小河塘杀死3只【蝎子】，报酬会让你满意的。"
+    "KillScorpionsAccept"					"有客人想吃蝎子，帮我到小河塘杀死3只【蝎子】，报酬会让你满意的。"
 	"KillScorpionsInprogress"				"我要3只【蝎子】，你当我不识数吗?"
 	"KillScorpionsFinish"                   "这是给你的奖励。"
 
